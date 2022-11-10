@@ -11,10 +11,10 @@ public class Titulacion extends BaseEntity{
 	public void setCodTitulacion(Integer codTitulacion) {
 		this.codTitulacion = codTitulacion;
 	}
-	public Integer getTitulo() {
+	public String getTitulo() {
 		return titulo;
 	}
-	public void setTitulo(Integer titulo) {
+	public void setTitulo(String titulo) {
 		this.titulo = titulo;
 	}
 
